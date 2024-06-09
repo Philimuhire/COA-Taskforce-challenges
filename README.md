@@ -1,4 +1,13 @@
-__#COA Taskforce Take Home Challenge__
+__#COA Taskforce Take Home Challenge submission__
+
+__Full Name__
+Philbert Muhire
+
+__Email Address__
+philimuhire@gmail.com
+
+__GitHub Repository Link__
+https://github.com/Philimuhire/COA-Taskforce-challenges.git
 
 __*Overview*__
 
