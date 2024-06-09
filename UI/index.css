@@ -4,6 +4,7 @@ body, html {
     box-sizing: border-box;
 }
 
+/* Main container for the gallery */
 .container {
     display: flex;
     flex-direction: row; 
@@ -15,6 +16,7 @@ body, html {
     padding: 0; 
 }
 
+/* Wrapper for each image and its overlay */  
 .image-wrapper {
     position: relative;
     width: 100%;
@@ -26,6 +28,7 @@ body, html {
     border: 1px solid black;
 }
 
+/* Styles for the main photo and overlay images */
 .photo, .overlay-photo{
     display: block; 
     width: 100%; 
@@ -36,6 +39,7 @@ body, html {
     object-position: center;
 }
 
+/* Styles for the overlay photo */
 .overlay-photo {
     position: absolute;
     top: 0;
@@ -47,6 +51,7 @@ body, html {
     transition: opacity 0.5s ease;
 }
 
+/* Hover effect for the main photo */
 .image-wrapper:hover .photo {
     filter: grayscale(200%);
     opacity: 1;
@@ -56,6 +61,7 @@ body, html {
     opacity: 1; 
 }
 
+/* Styles for the overlay text */
 .overlay-text {
     position: absolute;
     bottom: 20px; 
@@ -122,6 +128,7 @@ a{
 }
 
 
+/* Responsive styles for small screens */
 @media screen and (max-width: 600px) {
     .image-wrapper {
         width: 25%; 
