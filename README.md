@@ -1,13 +1,13 @@
-#COA Taskforce Take Home Challenge
-#Overview
+*#COA Taskforce Take Home Challenge*
+*#Overview*
 This is my submission for the COA Taskforce Take Home Challenge! This repository contains my solutions for the interactive photo gallery and two coding challenges. Below are the setup instructions and explanations of my approach for each challenge.
 
-#Setup Instructions
+*#Setup Instructions*
 Clone Repository: Cloned this repository to my local machine using the git clone <repository_url> commmand
 Open in VS Code: Opened the cloned repository in Visual Studio Code (VS Code) by navigating to the repository folder in my terminal and using the command code .
 View Interactive Photo Gallery: Open the index.html file in your web browser to view the interactive photo gallery.
 
-#Interactive Photo Gallery
+*#Interactive Photo Gallery*
 Objective: Implement an interactive photo gallery based on provided Figma designs.
 
 Tools Used: HTML, CSS, JavaScript
@@ -20,7 +20,7 @@ CSS Styling: Styled the gallery components using CSS to match the Figma designs,
 
 JavaScript Interactivity: Implemented JavaScript functionality for hover interactions and image navigation as per the design requirements.
 
-#Coding Challenges
+*#Coding Challenges*
 #Challenge 1: Array Manipulation
 Objective: Determine if there exists a contiguous subarray within an array that sums up to a target.
 
