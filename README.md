@@ -7,6 +7,7 @@ This is my submission for the COA Taskforce Take Home Challenge! This repository
 __*Setup Instructions*__
 
 *Clone Repository:* Cloned this repository to my local machine using the git clone <repository_url> commmand
+
 *Open in VS Code:* Opened the cloned repository in Visual Studio Code (VS Code) by navigating to the repository folder in my terminal and using the command code .
 
 __*Interactive Photo Gallery*__
