@@ -1,42 +1,53 @@
-*#COA Taskforce Take Home Challenge*
-*#Overview*
+__#COA Taskforce Take Home Challenge__
+
+__*Overview*__
+
 This is my submission for the COA Taskforce Take Home Challenge! This repository contains my solutions for the interactive photo gallery and two coding challenges. Below are the setup instructions and explanations of my approach for each challenge.
 
-*#Setup Instructions*
-Clone Repository: Cloned this repository to my local machine using the git clone <repository_url> commmand
-Open in VS Code: Opened the cloned repository in Visual Studio Code (VS Code) by navigating to the repository folder in my terminal and using the command code .
-View Interactive Photo Gallery: Open the index.html file in your web browser to view the interactive photo gallery.
+__*Setup Instructions*__
 
-*#Interactive Photo Gallery*
-Objective: Implement an interactive photo gallery based on provided Figma designs.
+*Clone Repository:* Cloned this repository to my local machine using the git clone <repository_url> commmand
+*Open in VS Code:* Opened the cloned repository in Visual Studio Code (VS Code) by navigating to the repository folder in my terminal and using the command code .
 
-Tools Used: HTML, CSS, JavaScript
+__*Interactive Photo Gallery*__
 
-Approach:
+*Objective:* Implement an interactive photo gallery based on provided Figma designs.
+
+*Tools Used:* HTML, CSS, JavaScript
+
+__*Approach:*__
 
 HTML Structure: Created the necessary HTML elements for the gallery layout and image display.
 
-CSS Styling: Styled the gallery components using CSS to match the Figma designs, ensuring responsiveness across different screen sizes.
+CSS Styling: Styled the gallery components used CSS to match the Figma designs, ensuring responsiveness across different screen sizes.
 
-JavaScript Interactivity: Implemented JavaScript functionality for hover interactions and image navigation as per the design requirements.
+__*Coding Challenges*__
 
-*#Coding Challenges*
-#Challenge 1: Array Manipulation
-Objective: Determine if there exists a contiguous subarray within an array that sums up to a target.
+__*Challenge 1: Array Manipulation*__
 
-Approach:
+*Objective:* Determine if there exists a contiguous subarray within an array that sums up to a target.
 
-Sliding Window Algorithm: Utilized a sliding window approach to efficiently search for the contiguous subarray.
+*Approach:*
 
-Pointer Movement: Moved two pointers, one at the start and one at the end of the array, to dynamically adjust the window size.
+I used the sliding window technique to efficiently search for a contiguous subarray that sums up to the target.
+This method keeps track of the current sum of the elements between two pointers (start and end).
+As I iterate through the array, I adjust the window size by moving the start pointer to the right when the current sum exceeds the target, thus reducing the window size and bringing the sum back down.
+If at any point the current sum equals the target, we return true.
 
-#Challenge 2: String Transformation
-Objective: Given a string, transform it based on certain rules.
+__*Challenge 2: String Transformation*__
 
-Approach:
+*Objective:* Given a string, transform it based on certain rules.
 
-Rule-based Transformation: Implemented logic to apply different transformations based on the length of the string and its divisibility by certain numbers.
+If the length of the string is divisible by 3, reverse the entire string.
+If the length of the string is divisible by 5, replace each character with its ASCII code.
+If the length of the string is divisible by both 3 and 5 (i.e., divisible by 15), perform both operations in the specified order.
 
-Modular Approach: Utilized modulo operations to check divisibility and apply the appropriate transformation.
+*Approach:*
 
-Thank you for reviewing my submission!
+I used conditional statements to apply different transformations based on the divisibility of the string's length.
+The operations are checked in order of divisibility by 15, 3, and 5, with the most complex case (divisible by 15) being handled first.
+For strings divisible by 15, the string is first reversed and then each character is replaced by its ASCII code.
+For strings divisible by 3 but not by 15, the string is simply reversed.
+For strings divisible by 5 but not by 3 or 15, each character is replaced by its ASCII code.
+
+__Thank you for reviewing my submission!__
